@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    
+/* -----CORES----- */
+    --color-Red: #FC3314; /*Variável de cor*/
+    --color-Pink: #FFD4D0; /*Variável de cor*/
+    --color-Dark: #1F1F1F; /*Variável de cor*/
+    --color-Dark-Grey: #8D8D8D; /*Variável de cor*/
+    --color-Medium-Grey: #E1E1E1; /*Variável de cor*/
+    --color-Grey: #F7F7F7; /*Variável de cor*/
+    --color-White: #FFFFFF; /*Variável de cor*/
+
+    --font-size-h1: 64px; /* Variavel tamanho da fonte */
+    --font-size-h2: 48px; /* Variavel tamanho da fonte */
+    --font-size-h3: 36 x; /* Variavel tamanho da fonte */
+    --font-size-h4: 18px; /* Variavel tamanho da fonte */
+    --font-size-body-xlarge: 20px; /* Variavel tamanho da fonte */
+    --font-size-body-large: 18px; /* Variavel tamanho da fonte */
+    --font-size-body-medium: 16px; /* Variavel tamanho da fonte */
+    --font-size-body-small: 14px;
+    --font-size-body-xsmall:12px;
+
+
+    --font-weight-h1:700; 
+    --font-weight-h2:700;
+    --font-weight-h3:700; 
+    --font-weight-body-bold:700;
+    --font-weight-body-thin:400;
+
+    font-family: "Montserrat", sans-serif;
+
+}
+    
