@@ -1,0 +1,54 @@
+@import url(./styles/global.css);
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 41.5px 158px;
+    border-bottom: 1px solid #E5E5E5;
+    gap: 285PX;
+    background-color: #FFD4D0;
+}   
+
+.container-nav-header{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navigation-header ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+
+.navigation-header a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+.navigation-header a:hover{
+    color: red;
+}
+.btn-header{
+    display: inline-flex;
+    background-color: #000;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 0px;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-header:hover{
+    transform: scale(1.1);
+}
