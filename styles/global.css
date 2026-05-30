@@ -18,7 +18,7 @@
 
     --font-size-h1: 64px; /* Variavel tamanho da fonte */
     --font-size-h2: 48px; /* Variavel tamanho da fonte */
-    --font-size-h3: 36 x; /* Variavel tamanho da fonte */
+    --font-size-h3: 36px; /* Variavel tamanho da fonte */
     --font-size-h4: 18px; /* Variavel tamanho da fonte */
     --font-size-body-xlarge: 20px; /* Variavel tamanho da fonte */
     --font-size-body-large: 18px; /* Variavel tamanho da fonte */
@@ -33,7 +33,6 @@
     --font-weight-body-bold:700;
     --font-weight-body-thin:400;
 
-    font-family: "Montserrat", sans-serif;
+    --font-family-primary: "Montserrat", sans-serif;
 
 }
-    
