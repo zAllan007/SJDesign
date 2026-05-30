@@ -52,3 +52,83 @@ header{
 .btn-header:hover{
     transform: scale(1.1);
 }
+
+/*------------main------------*/
+
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 48px; /* distância entre texto e imagem */
+    padding: 70px 80px;
+    background: #FFD4D0;
+    min-height: calc(100vh - 100px);
+}
+
+.hero-text{
+    width: 45%;
+}
+
+.cargo{
+    font-size: 20px;
+    color: #1F1F1F;
+    margin-bottom: 25px;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero-text h1 span{
+    color: #FC3314;
+}
+
+.descricao{
+    font-size: 20px;
+    color: #1F1F1F;
+    line-height: 1.7;
+    max-width: 550px;
+    margin-bottom: 40px;
+}
+
+.botoes{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-dark{
+    background: #111827;
+    color: white;
+    text-decoration: none;
+    padding: 18px 55px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-light{
+    background: white;
+    color: #111827;
+    text-decoration: none;
+    padding: 18px 55px;
+    border: 1px solid #d8d8d8;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-dark:hover,
+.btn-light:hover{
+    transform: scale(1.05);
+}
+
+.hero-img{
+    width: 50%;
+    display: flex;  
+    justify-content: center;
+}
+
+.hero-img img{
+    width: 100%;
+    max-width: 650px;
+}
