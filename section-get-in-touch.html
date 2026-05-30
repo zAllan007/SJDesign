@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section Get In Touch</title>
+    <link rel="stylesheet" href="./styles/section-get-in-touch.css">
+</head>
+
+<body>
+    <section class="container-get-in-touch">
+        <div class="contact-content">
+            <h2>Get in Touch</h2>
+            <p>
+                Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.
+            </p>
+
+            <address class="contact-info"> 
+                <ul>
+                    <li>
+                        <a href="tel:+12055872321">
+                            <img src="./assets/phone-icon.png" alt="Phone">
+                            <span>+1205 5872 321</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="mailto:contact@sarajonesdesign.com">
+                            <img src="./assets/email-icon.png" alt="Email">
+                            <span>contact@sarajonesdesign.com</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.google.com/maps/search/?api=1&query=1234+Design+Street,+Creativeville,+Webland,+Imaginary+State,+98765" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/map-icon.png" alt="Address">
+                            <span>1234 Design Street,Creativeville, Webland,Imaginary State, 98765</span>
+                        </a>
+                    </li>    
+                </ul>
+            </address>
+
+            <ul class="social-media-links">
+                <li>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <img src="./assets/twitter-icon.png" alt="">
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <img src="./assets/instagram-icon.png" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer" aria-label="Dribbble">
+                        <img src="./assets/dribbble-icon.png" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <img src="./assets/facebook-icon.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <form action="" method="post"  aria-labelledby="contact-form-title">
+            <h3 id="contact-form-title" class="sr-only">
+                Contact Form
+            </h3>
+
+            <label for="first-name" class="sr-only">First name</label>
+            <input type="text" name="first-name" id="first-name" placeholder="First name" required>
+
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+
+            <label for="phone" class="sr-only">Phone number</label>
+            <input type="tel" name="phone" id="phone" placeholder="Phone number" required>
+
+            <label for="message" class="sr-only">Message</label>
+            <textarea name="message" id="message" placeholder="Your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
