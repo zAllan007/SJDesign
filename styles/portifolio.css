@@ -100,3 +100,113 @@
     transform: translateY(-10px);
 }
 
+.content-design{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    gap: 48px;
+    background-color: var(--color-Grey);
+
+}
+
+.content-design-title{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 48px;    
+   
+}
+
+.content-design-title h2,.content-design-title p{
+    font-family: var(--font-family-primary);
+    line-height: 150%;
+    text-align: center;
+}
+
+.content-design-title h2{
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-h2);
+}
+
+.content-design-title p{
+    font-size: var(--font-size-body-medium);
+    font-weight: var(--font-weight-body-thin);
+    width: 799px;
+}
+
+.content-design-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 92px;
+  
+    
+
+}
+
+.card-design-item{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    background-color: var(--color-White);
+    width: 336px;
+
+}
+
+.card-design-image{
+  width: 100%;
+  height: 100%;
+}
+
+
+.card-design-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: start;
+    justify-content: center;
+    padding: 0 16px 16px 16px;
+
+}
+
+.card-design-text h3{
+    font-family: var(--font-family-primary);
+    line-height: 150%;
+    font-size: var(--font-size-body-medium);
+    font-weight: var(--font-weight-h3);
+}
+.card-design-text p{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body-medium);
+    font-weight: var(--font-weight-body-thin);
+    line-height: 150%;
+    width: 304px;
+}
+
+.card-design-information{
+    display: flex;
+    gap: 8px;
+    align-items: start;
+   
+
+}
+
+.card-design-information span{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body-xsmall);
+    font-weight: var(--font-weight-body-bold);
+    margin-top: 16px
+
+}
+
+.card-design-information img{
+    stroke: var(--color-Dark);
+    stroke-width: 1.5px;
+    margin-top: 16px
+}
+
+.card-span-margin{
+    margin-top: 56px;
+}
