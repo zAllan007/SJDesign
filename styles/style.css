@@ -60,7 +60,7 @@ header{
     display: flex;
     align-items: center;
     gap: 48px; /* distância entre texto e imagem */
-    padding: 70px 80px;
+    padding: 60px;
     background: #FFD4D0;
     min-height: calc(100vh - 100px);
 }
